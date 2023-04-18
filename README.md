@@ -19,7 +19,6 @@ Accelerate your YANG model development process with XML to YANG Convertor - the 
 - [x] Dynamically creates container, leaf, and list elements.
 - [x] Automatically Extracts attributes and their values from XML files and creates YANG objects.
 - [x] Adds description and key statements to container and list elements respectively dynamically.
-- [x] 
 
 
 
