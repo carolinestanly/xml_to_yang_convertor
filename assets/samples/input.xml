@@ -1,0 +1,24 @@
+<config>
+  <interface>
+    <name>GigabitEthernet1/0/1</name>
+    <description>Sample interface</description>
+    <ipv4>
+      <address>
+        <ip>192.0.2.1</ip>
+        <netmask>255.255.255.0</netmask>
+      </address>
+      <mtu>1500</mtu>
+    </ipv4>
+  </interface>
+  <interface>
+    <name>GigabitEthernet1/0/2</name>
+    <description>Another sample interface</description>
+    <ipv4>
+      <address>
+        <ip>192.0.2.2</ip>
+        <netmask>255.255.255.0</netmask>
+      </address>
+      <mtu>1500</mtu>
+    </ipv4>
+  </interface>
+</config>

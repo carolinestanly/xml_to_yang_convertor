@@ -1,0 +1,46 @@
+module output {
+  namespace "urn:example:output";
+  prefix gyn;
+	revision 2022-01-01 {
+    description "Added a new feature to the module.";
+	}
+ container config {
+  list interface {
+   key "name";
+   leaf name {
+    type string {
+    length 1..17;
+    }
+    description "This object belongs to name";
+   }
+   leaf description {
+    type string {
+    length 1..16;
+    }
+    description "This object belongs to description";
+   }
+   container ipv4 {
+    container address {
+     leaf ip {
+      type decimal64 {
+      range 1..1024;
+      }
+      description "This object belongs to ip";
+     }
+     leaf netmask {
+      type decimal64 {
+      range 1..1024;
+      }
+      description "This object belongs to netmask";
+     }
+    }
+    leaf mtu {
+     type uint16 {
+     range 0..65535;
+     }
+     description "This object belongs to mtu";
+    }
+   }
+  }
+ }
+}
