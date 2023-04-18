@@ -19,7 +19,7 @@ Accelerate your YANG model development process with XML to YANG Convertor - the 
 - [x] Dynamically creates container, leaf, and list elements.
 - [x] Automatically Extracts attributes and their values from XML files and creates YANG objects.
 - [x] Adds description and key statements to container and list elements respectively dynamically.
-- [x] Validates the output yang after conversion
+- [x] 
 
 
 
@@ -126,6 +126,8 @@ Modify the input and output path. Execute the execute.sh script to run the conve
 - [ ] Improved error handling and reporting
 - [ ] Grouping of the YANG nodes.
 - [ ] Enable Dual XML Migration followed by YANG Conversion.
+- [ ] Validates the output yang after conversion
+- [ ] Compare XSD and XML to enable YANG conversion.
 
 
 ## <div align="center">Acknowledgement</div>
